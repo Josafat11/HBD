@@ -81,7 +81,7 @@ useEffect(() => {
     if (!started) return;
     let lineIndex = 0;
     let charIndex = 0;
-    let charInterval: NodeJS.Timeout;
+let charInterval: ReturnType<typeof setInterval>;
 
     const typeLine = () => {
         if (lineIndex >= bootLines.length) {
