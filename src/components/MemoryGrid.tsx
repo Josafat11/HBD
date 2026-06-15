@@ -143,6 +143,7 @@ export default function MemoryGrid() {
                     </h3>
 
                     <p>[PORTAL] NMS Coordinates Stable</p>
+                    <p>[MESSAGE] TONOTA</p>
                     <p>[BLOOD_POOL] 100%</p>
                     <p>[P_PROTOCOL] ACTIVE</p>
                     <p>[UNIT_ALE] ONLINE</p>

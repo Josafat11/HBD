@@ -7,10 +7,10 @@ interface MainGreetingProps {
 export default function MainGreeting({ onNext }: MainGreetingProps) {
 
     const lockedFiles = [
-        "ASHES_OF_SILENT_HILL.dat",
-        "HUSBANDO_ARCHIVE.sys",
-        "SKY_COORDINATES_NMS.log",
-        "KRAT_P_PROTOCOL.bin"
+        "LEON_S_K_PROFILE",
+        "TOJI_F_PROFILE",
+        "DANTE_ARCHIVE",
+        "ALUCARD_RECORD"
     ];
 
     return (
@@ -218,8 +218,14 @@ export default function MainGreeting({ onNext }: MainGreetingProps) {
                             </p>
 
                             <p>
-                                Quería construir algo para ti algo que pudieras apreciar
+                                Quería construir algo para ti algo que llevara todas las cosas que conozco sobre ti
+                                algo que pudieras apreciar
                                 un regalo hecho a mano por mi para ti.
+                            </p>
+                            <p>
+                                Algo que yo pudiera hacer y ser parte de mi para demostrarte lo mucho que te aprecio 
+                                y lo importante que eres para mi, algo que pudiera representar un 
+                                poco de todo lo que hemos compartido y lo que me gustaría seguir compartiendo contigo en el futuro.
                             </p>
 
                             <p>
@@ -242,21 +248,22 @@ export default function MainGreeting({ onNext }: MainGreetingProps) {
                                 Más aventuras.<br />
                                 Más música.<br />
                                 Más Silent Hill.<br />
-                                Más NieR.<br />
+                                Más aventuras con tus amigos.<br />
                                 Más videojuegos.<br />
-                                Más viajes imposibles por el espacio.
+                                Más años de vida:C.
                             </p>
 
                             <p>
                                 Que cada dia de tu vida sea mejor al anterior y que sigas siendo
-                                la mujer tan fuerte que conocida hasta ahora, que no dejes de luchar por encontrar lo que quieres y que nunca pierdas esa chispa de curiosidad y amor por las cosas que te apasionan.
-                                que sepas que siempre estare para ti cuando me necesites y cuando tampoco lo hagas
+                                la mujer tan fuerte que conocida hasta ahora, que no dejes de luchar por encontrar lo que quieres y que 
+                                nunca pierdas esa chispa de curiosidad y amor por las cosas que te apasionan.
+                                que sepas que siempre estare para ti cuando me necesites y cuando no tambien.
                             </p>
 
                             <p>
                                 Gracias por todas las conversaciones,
                                 las partidas y los momentos compartidos,
-                                te quiero.
+                                te quiero ten un bonito dia hoy y todos los dias.
                             </p>
                             <p>
                                 PD: te deje un jueguito de 1 minuto
@@ -267,7 +274,7 @@ export default function MainGreeting({ onNext }: MainGreetingProps) {
                                     color: "#c89cff"
                                 }}
                             >
-                                Feliz cumpleaños.
+                                Feliz cumpleaños pequeña.
                             </p>
 
                             <div

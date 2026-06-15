@@ -46,6 +46,7 @@ export default function BootScreen({ onComplete }: BootScreenProps) {
         "[DATA] : Subject affinity -> Dante.",
         "[DATA] : Subject affinity -> Toji Fushiguro.",
         "[DATA] : Subject affinity -> Leon S. Kennedy.",
+        "[DATA] : Subject affinity -> ---------------.",
 
         "",
 
@@ -112,7 +113,6 @@ let charInterval: ReturnType<typeof setInterval>;
 
     typeLine();
 
-    // Limpieza vital para evitar fugas de memoria si el componente se desmonta
     return () => {
         clearInterval(charInterval);
     };

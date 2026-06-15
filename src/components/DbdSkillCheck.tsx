@@ -181,6 +181,8 @@ export default function DbdSkillCheck({ onComplete }: DbdSkillCheckProps) {
                         <p>[INTRUSION] ALUCARD signal detected</p>
 
                         <p>[WARNING] Excessive Ale references found</p>
+                        <p>[WARNING] Excess beautiful woman</p>
+                        <p>[WARNING] Feet that smell like cheese</p>
                         <p>[WARNING] Birthday protocol unstable</p>
                     </div>
                 </div>
@@ -349,54 +351,54 @@ export default function DbdSkillCheck({ onComplete }: DbdSkillCheckProps) {
                         gap: "15px"
                     }}
                 >
-{archives.map((archive, index) => {
+                    {archives.map((archive, index) => {
 
-  const unlocked =
-    progress >= (index + 1) * 25;
+                        const unlocked =
+                            progress >= (index + 1) * 25;
 
-  return (
-    <div
-      key={archive}
-      style={{
-        border:
-          unlocked
-            ? "1px solid rgba(184,140,255,.7)"
-            : "1px solid rgba(168,85,247,.15)",
+                        return (
+                            <div
+                                key={archive}
+                                style={{
+                                    border:
+                                        unlocked
+                                            ? "1px solid rgba(184,140,255,.7)"
+                                            : "1px solid rgba(168,85,247,.15)",
 
-        background:
-          unlocked
-            ? "rgba(184,140,255,.08)"
-            : "rgba(255,255,255,.03)",
+                                    background:
+                                        unlocked
+                                            ? "rgba(184,140,255,.08)"
+                                            : "rgba(255,255,255,.03)",
 
-        padding: "15px"
-      }}
-    >
-      <div
-        style={{
-          color:
-            unlocked
-              ? "#b88cff"
-              : "#666",
+                                    padding: "15px"
+                                }}
+                            >
+                                <div
+                                    style={{
+                                        color:
+                                            unlocked
+                                                ? "#b88cff"
+                                                : "#666",
 
-          fontSize: "12px"
-        }}
-      >
-        {unlocked
-          ? "[ UNLOCKED ]"
-          : "[ LOCKED ]"}
-      </div>
+                                        fontSize: "12px"
+                                    }}
+                                >
+                                    {unlocked
+                                        ? "[ UNLOCKED ]"
+                                        : "[ LOCKED ]"}
+                                </div>
 
-      <div
-        style={{
-          marginTop: "10px",
-          fontSize: "13px"
-        }}
-      >
-        {archive}
-      </div>
-    </div>
-  );
-})}
+                                <div
+                                    style={{
+                                        marginTop: "10px",
+                                        fontSize: "13px"
+                                    }}
+                                >
+                                    {archive}
+                                </div>
+                            </div>
+                        );
+                    })}
                 </div>
             </div>
         </div>
